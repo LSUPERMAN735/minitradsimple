@@ -8,3 +8,4 @@ while i<y: #for j in fr :
     i+=1
 
 print('translated :',txt)
+ 
