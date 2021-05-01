@@ -37,3 +37,6 @@ jobs:
     - name: Test with python
       run: |
         python3 trad.py
+    - name: Test with python trad2
+      run: |
+        python3 trad2.py
