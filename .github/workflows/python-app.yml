@@ -40,4 +40,7 @@ jobs:
     - name: Test with python trad2
       run: |
         pip install googletrans
-        python3 trad2.py
+        python3 trad2.py << EOF
+        fr
+        testons testons
+        EOF
