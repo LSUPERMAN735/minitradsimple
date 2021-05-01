@@ -39,4 +39,5 @@ jobs:
         python3 trad.py
     - name: Test with python trad2
       run: |
+        pip install googletrans
         python3 trad2.py
